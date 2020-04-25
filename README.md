@@ -1,3 +1,3 @@
 # CS400-Hwks
 CS400 MEAN Stack
- PS4: run using `node app.js`
+ PS6: run using `ng serve --open`
