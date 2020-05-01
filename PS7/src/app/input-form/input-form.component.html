@@ -1,0 +1,12 @@
+<form [formGroup]="inputForm" (ngSubmit)="onSubmit()">
+
+  <button class="button" type="submit">Go</button>
+
+  <div [hidden]="submitted">
+  	<app-result-display [resultData]="resultData"></app-result-display>
+  </div>
+<ng-container *ngFor="let day of resultData">
+  <p>{{ day }}</p>
+</ng-container>
+
+</form>
