@@ -1,3 +1,7 @@
 # CS400-Hwks
-CS400 MEAN Stack
- PS4: run using `node app.js`
+
+** How to run
+
+Run the api with `node api/app.js`
+
+Run the app with `ng serve --open` in the `PS7` directory
